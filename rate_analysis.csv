@@ -1,81 +1,218 @@
-S.No,Description,Unit,Qty,Rate (NPR),Amount (NPR),Remarks
-,=== BASE RATES (Bhaktapur Nepal) ===,,,,,
-,Cement (OPC/PPC),bag (50 kg),,1150,,
-,Sand (river washed),m3,,1800,,
-,Aggregate 20mm,m3,,2200,,
-,Aggregate 40mm,m3,,2100,,
-,Bricks (burnt clay),No,,18,,
-,Steel Fe500,kg,,150,,
-,Skilled mason,day,,1800,,
-,Unskilled labour,day,,1200,,
-,Tiles (ceramic floor),m2,,750,,
-,Formwork (shuttering),m2,,450,,
-,,,,,,,
-,=== RATE ANALYSIS: RCC M20 (per m3) ===,,,,,
-1,Cement,bag,8.00,1150,9200.00,
-2,Sand,m3,0.42,1800,756.00,
-3,Aggregate 20mm,m3,0.84,2200,1848.00,
-4,Steel Fe500,kg,90.00,150,13500.00,
-5,Water,1000 L,0.15,200,30.00,
-6,Skilled mason,day,1.20,1800,2160.00,
-7,Unskilled labour,day,2.30,1200,2760.00,
-8,Formwork,m2,10.00,450,4500.00,
-,TOTAL RCC M20 COST / m3,,,,34754.00,
-,,,,,,,
-,=== RATE ANALYSIS: PCC 1:4:8 (per m3) ===,,,,,
-1,Cement,bag,3.39,1150,3898.50,
-2,Sand,m3,0.47,1800,846.00,
-3,Aggregate 40mm,m3,0.95,2100,1995.00,
-4,Water,1000 L,0.12,200,24.00,
-5,Skilled mason,day,0.80,1800,1440.00,
-6,Unskilled labour,day,1.50,1200,1800.00,
-,TOTAL PCC COST / m3,,,,10003.50,
-,,,,,,,
-,=== RATE ANALYSIS: BRICKWORK 1:4 (per m3) ===,,,,,
-1,Bricks,No,500,18,9000.00,
-2,Cement,bag,1.72,1150,1978.00,
-3,Sand,m3,0.24,1800,432.00,
-4,Water,1000 L,0.08,200,16.00,
-5,Skilled mason,day,1.20,1800,2160.00,
-6,Unskilled labour,day,2.00,1200,2400.00,
-,TOTAL BRICKWORK COST / m3,,,,15986.00,
-,,,,,,,
-,=== RATE ANALYSIS: 12mm PLASTER 1:4 (per m2) ===,,,,,
-1,Cement,bag,0.07,1150,80.50,
-2,Sand,m3,0.01,1800,18.00,
-3,Water,1000 L,0.01,200,2.00,
-4,Skilled mason,day,0.15,1800,270.00,
-5,Unskilled labour,day,0.25,1200,300.00,
-,TOTAL PLASTER COST / m2,,,,670.50,
-,,,,,,,
-,=== RATE ANALYSIS: FLOOR TILES (per m2) ===,,,,,
-1,Floor tiles,m2,1.10,750,825.00,
-2,Tile adhesive,bag,0.20,900,180.00,
-3,Cement,bag,0.10,1150,115.00,
-4,Sand,m3,0.02,1800,36.00,
-5,Skilled mason,day,0.18,1800,324.00,
-6,Unskilled labour,day,0.25,1200,300.00,
-,TOTAL FLOOR TILE COST / m2,,,,1780.00,
-,,,,,,,
-,=== RATE ANALYSIS: INTERIOR PAINTING (per m2) ===,,,,,
-1,Primer/putty,kg,0.25,220,55.00,
-2,Emulsion paint,L,0.15,280,42.00,
-3,Skilled painter,day,0.08,1800,144.00,
-4,Unskilled labour,day,0.05,1200,60.00,
-,TOTAL PAINTING COST / m2,,,,301.00,
-,,,,,,,
-,=== YOUR BUILDING BOQ (Bhaktapur) ===,,,,,
-1,Excavation footing F1 (9 nos 6'x6'),m3,13.56,1800,24408.00,9x1.83x1.83x0.45
-2,Excavation footing F2 (2 nos 5'-6"x6'),m3,2.77,1800,4986.00,2x1.68x1.83x0.45
-3,PCC under footing F1,m3,3.01,10004,30112.04,9x1.83x1.83x0.10
-4,PCC under footing F2,m3,0.61,10004,6102.44,2x1.68x1.83x0.10
-5,RCC footing F1,m3,10.54,34754,366296.16,9x1.83x1.83x0.35
-6,RCC footing F2,m3,2.15,34754,74721.10,2x1.68x1.83x0.35
-7,RCC columns footing to plinth (11 nos),m3,1.02,34754,35449.08,11x0.305x0.305x1.0
-8,RCC columns plinth to roof (11 nos),m3,2.76,34754,95921.04,11x0.305x0.305x2.7
-,,,,,,,
-,SUB-TOTAL (NPR),,,,637996.00,
-,Contingency 5%,,,,31899.80,
-,Contractor Profit 10%,,,,63799.60,
-,VAT 13%,,,,82939.48,
-,GRAND TOTAL (NPR),,,,816634.88,
+S.No,Description,Unit,Length,Width,Height/Depth,No.,Quantity,Rate (NPR),Amount (NPR),Remarks
+
+,=== PROJECT INFORMATION ===,,,,,,,,,
+,Project: Residential Building,,,,,,,,,
+,Location: Bhaktapur Nepal,,,,,,,,,
+,Site Area: 1608.98 sq.ft. (149.45 m2),,,,,,,,,
+,Building: Ground + First + Second Floor,,,,,,,,,
+,Total Height: 28'-0" (8.53m),,,,,,,,,
+,,,,,,,,,,,
+
+,=== BASE RATES (Bhaktapur Nepal 2024) ===,,,,,,,,,
+,Cement (OPC/PPC),bag (50 kg),,,,,1,1150,,
+,Sand (river washed),m3,,,,,1,1800,,
+,Aggregate 20mm,m3,,,,,1,2200,,
+,Aggregate 40mm,m3,,,,,1,2100,,
+,Bricks (burnt clay),No,,,,,1,18,,
+,Steel Fe500,kg,,,,,1,150,,
+,Skilled mason,day,,,,,1,1800,,
+,Unskilled labour,day,,,,,1,1200,,
+,Tiles (ceramic floor),m2,,,,,1,750,,
+,Formwork (shuttering),m2,,,,,1,450,,
+,,,,,,,,,,,
+
+,=== RATE ANALYSIS: EXCAVATION (per m3) ===,,,,,,,,,
+1,Unskilled labour (digging),day,,,,,1.5,1200,1800,Manual excavation
+,TOTAL EXCAVATION COST / m3,,,,,,,1800,,
+,,,,,,,,,,,
+
+,=== RATE ANALYSIS: PCC 1:4:8 (per m3) ===,,,,,,,,,
+1,Cement,bag,,,,1,3.39,1150,3898.50,
+2,Sand,m3,,,,1,0.47,1800,846.00,
+3,Aggregate 40mm,m3,,,,1,0.95,2100,1995.00,
+4,Water,1000 L,,,,1,0.12,200,24.00,
+5,Skilled mason,day,,,,1,0.80,1800,1440.00,
+6,Unskilled labour,day,,,,1,1.50,1200,1800.00,
+,Total Material Cost / m3,,,,,,,6763.50,,
+,Total Labour Cost / m3,,,,,,,3240.00,,
+,TOTAL PCC COST / m3,,,,,,,10003.50,,
+,,,,,,,,,,,
+
+,=== RATE ANALYSIS: RCC M20 (per m3) ===,,,,,,,,,
+1,Cement,bag,,,,1,8.00,1150,9200.00,
+2,Sand,m3,,,,1,0.42,1800,756.00,
+3,Aggregate 20mm,m3,,,,1,0.84,2200,1848.00,
+4,Steel Fe500,kg,,,,1,90.00,150,13500.00,90 kg/m3 average
+5,Water,1000 L,,,,1,0.15,200,30.00,
+6,Skilled mason,day,,,,1,1.20,1800,2160.00,
+7,Unskilled labour,day,,,,1,2.30,1200,2760.00,
+8,Formwork,m2,,,,1,10.00,450,4500.00,
+,Total Material Cost / m3,,,,,,,25334.00,,
+,Total Labour + Formwork / m3,,,,,,,9420.00,,
+,TOTAL RCC M20 COST / m3,,,,,,,34754.00,,
+,,,,,,,,,,,
+
+,=== RATE ANALYSIS: BRICKWORK 1:4 (per m3) ===,,,,,,,,,
+1,Bricks,No,,,,1,500,18,9000.00,
+2,Cement for mortar,bag,,,,1,1.72,1150,1978.00,
+3,Sand for mortar,m3,,,,1,0.24,1800,432.00,
+4,Water,1000 L,,,,1,0.08,200,16.00,
+5,Skilled mason,day,,,,1,1.20,1800,2160.00,
+6,Unskilled labour,day,,,,1,2.00,1200,2400.00,
+,Total Material Cost / m3,,,,,,,11426.00,,
+,Total Labour Cost / m3,,,,,,,4560.00,,
+,TOTAL BRICKWORK COST / m3,,,,,,,15986.00,,
+,,,,,,,,,,,
+
+,=== RATE ANALYSIS: 12mm PLASTER 1:4 (per m2) ===,,,,,,,,,
+1,Cement,bag,,,,1,0.07,1150,80.50,
+2,Sand,m3,,,,1,0.01,1800,18.00,
+3,Water,1000 L,,,,1,0.01,200,2.00,
+4,Skilled mason,day,,,,1,0.15,1800,270.00,
+5,Unskilled labour,day,,,,1,0.25,1200,300.00,
+,Total Material Cost / m2,,,,,,,100.50,,
+,Total Labour Cost / m2,,,,,,,570.00,,
+,TOTAL PLASTER COST / m2,,,,,,,670.50,,
+,,,,,,,,,,,
+
+,=== RATE ANALYSIS: FLOOR TILES (per m2) ===,,,,,,,,,
+1,Floor tiles,m2,,,,1,1.10,750,825.00,10% wastage
+2,Tile adhesive,bag,,,,1,0.20,900,180.00,
+3,Cement,bag,,,,1,0.10,1150,115.00,
+4,Sand,m3,,,,1,0.02,1800,36.00,
+5,Skilled mason,day,,,,1,0.18,1800,324.00,
+6,Unskilled labour,day,,,,1,0.25,1200,300.00,
+,Total Material Cost / m2,,,,,,,1156.00,,
+,Total Labour Cost / m2,,,,,,,624.00,,
+,TOTAL FLOOR TILE COST / m2,,,,,,,1780.00,,
+,,,,,,,,,,,
+
+,=== RATE ANALYSIS: INTERIOR PAINTING (per m2) ===,,,,,,,,,
+1,Primer/putty,kg,,,,1,0.25,220,55.00,
+2,Emulsion paint,L,,,,1,0.15,280,42.00,
+3,Skilled painter,day,,,,1,0.08,1800,144.00,
+4,Unskilled labour,day,,,,1,0.05,1200,60.00,
+,Total Material Cost / m2,,,,,,,97.00,,
+,Total Labour Cost / m2,,,,,,,204.00,,
+,TOTAL PAINTING COST / m2,,,,,,,301.00,,
+,,,,,,,,,,,
+
+,========================================,,,,,,,,,
+,=== BILL OF QUANTITIES (BOQ) ===,,,,,,,,,
+,========================================,,,,,,,,,
+,,,,,,,,,,,
+
+,--- A. EARTHWORK ---,,,,,,,,,
+A1,Excavation for footing F1 (9 nos),m3,1.83,1.83,0.45,9,13.56,1800,24408.00,6'x6'x1'-6"
+A2,Excavation for footing F2 (2 nos),m3,1.68,1.83,0.45,2,2.77,1800,4986.00,5'-6"x6'x1'-6"
+,Sub-total Earthwork,,,,,,,16.33,,29394.00,
+,,,,,,,,,,,
+
+,--- B. PLAIN CEMENT CONCRETE ---,,,,,,,,,
+B1,PCC under footing F1 (75mm thick),m3,1.83,1.83,0.075,9,2.26,10004,22609.04,
+B2,PCC under footing F2 (75mm thick),m3,1.68,1.83,0.075,2,0.46,10004,4601.84,
+,Sub-total PCC,,,,,,,2.72,,27210.88,
+,,,,,,,,,,,
+
+,--- C. REINFORCED CEMENT CONCRETE ---,,,,,,,,,
+C1,RCC footing F1,m3,1.83,1.83,0.35,9,10.54,34754,366296.16,6'x6'x1'-2"
+C2,RCC footing F2,m3,1.68,1.83,0.35,2,2.15,34754,74721.10,5'-6"x6'x1'-2"
+C3,RCC column (Ground to Plinth),m3,0.305,0.305,0.45,11,0.46,34754,15986.84,1'x1'x1'-6"
+C4,RCC column (Plinth to FF slab),m3,0.305,0.305,2.74,11,2.80,34754,97311.20,1'x1'x9'-0"
+C5,RCC column (FF to SF slab),m3,0.305,0.305,2.74,11,2.80,34754,97311.20,1'x1'x9'-0"
+C6,RCC column (SF to Terrace),m3,0.305,0.305,2.74,11,2.80,34754,97311.20,1'x1'x9'-0"
+C7,RCC Plinth beam,m3,0.23,0.30,35.00,1,2.42,34754,84104.68,9"x12" total length 35m
+C8,RCC Tie beam (each floor),m3,0.23,0.23,35.00,3,5.56,34754,193232.24,9"x9" x 3 floors
+C9,RCC Slab - Ground floor,m3,55.00,1,0.125,1,6.88,34754,239107.52,55 m2 area
+C10,RCC Slab - First floor,m3,55.00,1,0.125,1,6.88,34754,239107.52,55 m2 area
+C11,RCC Slab - Second floor,m3,55.00,1,0.125,1,6.88,34754,239107.52,55 m2 area
+C12,RCC Staircase waist slab,m3,3.50,1.20,0.15,3,1.89,34754,65685.06,3 flights
+C13,RCC Stair landing,m3,1.20,1.20,0.125,6,1.08,34754,37534.32,6 landings
+,Sub-total RCC,,,,,,,52.14,,1847816.56,
+,,,,,,,,,,,
+
+,--- D. BRICKWORK ---,,,,,,,,,
+D1,Brickwork GF external walls,m3,28.00,0.23,2.74,1,17.66,15986,282328.76,9" thick
+D2,Brickwork GF internal walls,m3,18.00,0.115,2.74,1,5.67,15986,90640.62,4.5" thick
+D3,Brickwork FF external walls,m3,28.00,0.23,2.74,1,17.66,15986,282328.76,9" thick
+D4,Brickwork FF internal walls,m3,18.00,0.115,2.74,1,5.67,15986,90640.62,4.5" thick
+D5,Brickwork SF external walls,m3,28.00,0.23,2.74,1,17.66,15986,282328.76,9" thick
+D6,Brickwork SF internal walls,m3,18.00,0.115,2.74,1,5.67,15986,90640.62,4.5" thick
+D7,Parapet wall (terrace),m3,24.00,0.115,1.00,1,2.76,15986,44121.36,4.5" x 3'-3" high
+,Sub-total Brickwork,,,,,,,72.75,,1163029.50,
+,,,,,,,,,,,
+
+,--- E. PLASTERING ---,,,,,,,,,
+E1,Internal plaster GF (12mm),m2,,,,,92.00,670.50,61686.00,walls both sides
+E2,External plaster GF (12mm),m2,,,,,56.00,670.50,37548.00,
+E3,Internal plaster FF (12mm),m2,,,,,92.00,670.50,61686.00,
+E4,External plaster FF (12mm),m2,,,,,56.00,670.50,37548.00,
+E5,Internal plaster SF (12mm),m2,,,,,92.00,670.50,61686.00,
+E6,External plaster SF (12mm),m2,,,,,56.00,670.50,37548.00,
+E7,Ceiling plaster (all floors),m2,,,,,165.00,670.50,110632.50,55 m2 x 3
+,Sub-total Plastering,,,,,,,609.00,,408334.50,
+,,,,,,,,,,,
+
+,--- F. FLOORING ---,,,,,,,,,
+F1,Floor tiles GF,m2,,,,,52.00,1780,92560.00,
+F2,Floor tiles FF,m2,,,,,52.00,1780,92560.00,
+F3,Floor tiles SF,m2,,,,,52.00,1780,92560.00,
+F4,Staircase tile finish,m2,,,,,25.00,1780,44500.00,treads + risers
+F5,Bathroom tiles (wall + floor),m2,,,,,45.00,1780,80100.00,3 bathrooms
+,Sub-total Flooring,,,,,,,226.00,,402280.00,
+,,,,,,,,,,,
+
+,--- G. PAINTING ---,,,,,,,,,
+G1,Interior painting (all floors),m2,,,,,450.00,301,135450.00,walls + ceiling
+G2,Exterior painting,m2,,,,,168.00,350,58800.00,higher rate for exterior
+,Sub-total Painting,,,,,,,618.00,,194250.00,
+,,,,,,,,,,,
+
+,--- H. DOORS & WINDOWS (Provisional) ---,,,,,,,,,
+H1,Main door (sal wood frame + flush),No,,,,,1,25000,25000.00,3'x7'
+H2,Internal doors (sal frame + flush),No,,,,,8,15000,120000.00,2'-6"x7'
+H3,Bathroom doors (PVC),No,,,,,3,8000,24000.00,2'-6"x7'
+H4,Windows (aluminium sliding),No,,,,,12,12000,144000.00,4'x4' avg
+H5,Ventilators,No,,,,,6,3000,18000.00,2'x2'
+,Sub-total Doors & Windows,,,,,,,30,,331000.00,
+,,,,,,,,,,,
+
+,--- I. SANITARY & PLUMBING (Provisional) ---,,,,,,,,,
+I1,Toilet complete set,Set,,,,,3,35000,105000.00,WC + basin + fittings
+I2,Kitchen sink,No,,,,,1,8000,8000.00,
+I3,Water tank (1000L),No,,,,,1,15000,15000.00,
+I4,Plumbing complete,LS,,,,,1,75000,75000.00,pipes + fittings
+,Sub-total Sanitary,,,,,,,,,203000.00,
+,,,,,,,,,,,
+
+,--- J. ELECTRICAL (Provisional) ---,,,,,,,,,
+J1,Electrical wiring complete,LS,,,,,1,150000,150000.00,
+J2,Main panel board,No,,,,,1,15000,15000.00,
+J3,Light points,No,,,,,35,800,28000.00,
+J4,Power points,No,,,,,25,1200,30000.00,
+,Sub-total Electrical,,,,,,,,,223000.00,
+,,,,,,,,,,,
+
+,========================================,,,,,,,,,
+,=== COST SUMMARY ===,,,,,,,,,
+,========================================,,,,,,,,,
+,A. Earthwork,,,,,,,16.33,,29394.00,
+,B. PCC,,,,,,,2.72,,27210.88,
+,C. RCC Work,,,,,,,52.14,,1847816.56,
+,D. Brickwork,,,,,,,72.75,,1163029.50,
+,E. Plastering,,,,,,,609.00,,408334.50,
+,F. Flooring,,,,,,,226.00,,402280.00,
+,G. Painting,,,,,,,618.00,,194250.00,
+,H. Doors & Windows,,,,,,,30,,331000.00,
+,I. Sanitary & Plumbing,,,,,,,,,203000.00,
+,J. Electrical,,,,,,,,,223000.00,
+,,,,,,,,,,,
+,SUB-TOTAL (NPR),,,,,,,,,4829315.44,
+,Contingency @ 5%,,,,,,,,,241465.77,
+,Contractor Profit @ 10%,,,,,,,,,482931.54,
+,VAT @ 13%,,,,,,,,,627811.01,
+,,,,,,,,,,,
+,GRAND TOTAL (NPR),,,,,,,,,6181523.76,
+,,,,,,,,,,,
+,GRAND TOTAL (Rounded),,,,,,,,,62 Lakhs,
+,Cost per sq.ft.,,,,,,,,,3843.58,Per sq.ft. of site area
